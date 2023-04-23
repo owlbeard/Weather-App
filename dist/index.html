@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Earth-Chan</title>
+  <link rel="icon" type="image/png" href="./assets/anime-logo.png">
+  <script src="main.js" defer></script>
+</head>
+
+<body class="default">
+  <div class="container">
+    <div class="header">
+      <div class="logo">
+        <img id="logo" src="./assets/anime-logo.png" alt="Tony Soprano">
+        <div class="name">
+          <h4 id="name">Earth-Chan</h4>
+          <p id="description">A Weather App for Cuties!</p>
+        </div>
+      </div>
+      <div class="form">
+        <form action="" id="form">
+          <label for="search">City:</label>
+          <input type="search" name="search" id="search" required>
+          <button type="submit" id="submit"><img id="magnify" src="./assets/magnify.svg" alt=""></button>
+        </form>
+      </div>
+    </div>
+    <div class="content">
+      <div class="data hidden">
+        <h1 id="city"></h1>
+        <h2 id="condition"></h2>
+        <h4 id="feels"></h4>
+        <h4 id="humidity"></h4>
+        <h4 id="wind"></h4>
+      </div>
+    </div>
+    <div class="footer">
+      <a href="https://github.com/owlbeard"><img id="footer-logo" src="./assets/github.svg" alt="Github Logo"></a>
+      <p id="footer-text">Copyright © 2023 || owlbeard</p>
+    </div>
+  </div>
+</body>
+
+</html>
