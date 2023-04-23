@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+}
+
+.default {
+  background: url("../../../dist/assets/bg-anime.jpg");
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background: rgb(72, 72, 72, 0.7);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.form {
+  flex-grow: 1;
+  margin-right: 500px;
+  margin-left: 28px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.data {
+  background: rgb(72, 72, 72, 0.7);
+  color: white;
+  width: 20%;
+  height: 60%;
+  min-width: 300px;
+  min-height: 600px;
+  margin: 0 auto;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer {
+  background: rgb(72, 72, 72, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+#logo {
+  height: 100px;
+  padding: 8px;
+}
+
+#name {
+  font-size: 48px;
+  margin: 0;
+}
+
+
+#footer-logo {
+  height: 50px;
+}
+
+#search {
+  flex-grow: 1;
+  appearance: none;
+  height: 3rem;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+#submit {
+  width: 3rem;
+  background: none;
+  border: 0;
+}
+
+#magnify {
+  filter: invert(96%) sepia(0%) saturate(0%) hue-rotate(111deg) brightness(104%) contrast(105%);
+}
+
+.hidden {
+  transform: scale(0);
+}
+
+.shown {
+  transform: scale(1);
+  transition: transform 300ms ease-in-out;
+}
+
+#city {
+  font-size: 48px;
+}
+
+#condition {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+.cloudy {
+  background: url("../../../dist/assets/cloudy.jpeg");
+  background-size: cover;
+}
+
+.rainy {
+  background: url("../../../dist/assets/rainy.webp");
+  background-size: cover;
+}
+
+.sunny {
+  background: url("../../../dist/assets/sunny.jpg");
+  background-size: cover;
+}
+
+.snowy {
+  background: url("../../../dist/assets/snowy.jpg");
+  background-size: cover;
+}
