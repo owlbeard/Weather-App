@@ -146,3 +146,13 @@ h4 {
   background: url("../../../dist/assets/snowy.jpg");
   background-size: cover;
 }
+
+.misty {
+  background: url("../../../dist/assets/misty.jpeg");
+  background-size: cover;
+}
+
+.thunder {
+  background: url("../../../dist/assets/thunder.jpg");
+  background-size: cover;
+}

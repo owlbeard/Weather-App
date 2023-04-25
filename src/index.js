@@ -30,12 +30,16 @@ async function getWeather(c) {
     wind.textContent = `Wind: ${weatherData.current.wind_kph} km/h`;
     if (conduit.includes('loud') || conduit.includes('cast')) {
       body.className = 'cloudy';
-    } else if (conduit.includes('ain')) {
+    } else if (conduit.includes('ain') && !conduit.includes("hunder")) {
       body.className = 'rainy';
     } else if (conduit.includes('unny') || conduit.includes('lear')) {
       body.className = 'sunny';
     } else if (conduit.includes('now')) {
       body.className = 'snowy';
+    } else if (conduit.includes('ist')) {
+      body.className = 'misty';
+    } else if (conduit.includes("hunder")) {
+      body.className = 'thunder';
     } else {
       body.className = 'default';
     }
